@@ -20,8 +20,9 @@ body {
     background: #444;
     color: white;
     padding: 15px;
-
     gap: 15px;
+    text-align: center;
+    
 }
 .nav a {
     color: white;
@@ -36,6 +37,7 @@ body {
     background: #f4f4f4;
     padding: 20px;
     width: 25%;
+    
 }
 .content {
     background: #ddd;
@@ -50,12 +52,16 @@ body {
 .card-container {
     gap: 15px;
     width: 100%;
+    align-content: flex-end;
+    align-items: center;
+    
 }
 .card {
     background: white;
     padding: 15px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     text-align: center;
+    
 }
 .footer {
     margin-top: 20px;
